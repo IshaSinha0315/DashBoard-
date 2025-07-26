@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Project</title>
+    <link rel="stylesheet" href="style.css"/>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <section class="left">
+        <div class="profile">
+        <img 
+        src= "man.jpg"
+        alt="image"
+        />
+        <p><span><b>John Doe</b></span></p>
+        </div>
+
+        <div class="nav">
+            <span class="fas fa-bars"></span>
+            <a href="#board">Dashboard</a>
+        </div>
+        <div class="nav">
+            <span class="fas fa-gem">
+             
+            </span>
+           <a href="#board">Data</a>
+        </div>
+        <div class="nav">
+            <span class="fas fa-user"></span>
+            <a href="#board">Users</a>
+        </div>
+        <div class="nav">
+             <span class="fas fa-calendar-alt"></span>
+            <a href="#board">Schedule</a>
+        </div>
+        <div class="nav">
+             <span class="fas fa-cog"></span>
+            <a href="#board">Contact</a>
+        </div>
+        
+        </section>
+        
+       <section class="right">
+        <header>
+            <h1>DashBoard</h1>
+            <input placeholder="Search.."/>
+        </header>
+
+        <article id="board">
+            <div>
+                <h3>Activities</h3>
+                <p>May-June 2025</p>
+            </div>
+            <div>
+                <img src="BarGraph.png"
+                alt="Graph"
+                />
+            </div>
+        </article>
+
+        <article id="data">
+            <h2>Dashboard data</h2>
+            <div class="card-con">
+                <div class="card1 card">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <p class="cardHead">Total Revenue</p>
+                    <p class="cardData">$824,58,164</p>
+                </div>
+                <div class="card-con">
+                <div class="card2 card">
+                    <i class="fas fa-tags"></i>
+                    <p class="cardHead">Total Transaction</p>
+                    <p class="cardData">1450</p>
+                </div>
+                </div>
+                <div class="card-con">
+                <div class="card3 card">
+                    <i class="fas fa-thumbs-up"></i>
+                    <p class="cardHead">Total Likes</p>
+                    <p class="cardData">1234</p>
+                </div>
+                </div>
+                <div class="card-con">
+                <div class="card4 card">
+                    <i class="fa-solid fa-user"></i>
+                    <p class="cardHead">Total Users</p>
+                    <p class="cardData">856</p>
+                </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="users">
+            <table>
+                <h2>User Interations</h2>
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th>Number of Users</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>January</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td>February</td>
+                        <td>1200</td>
+                    </tr>
+                    <tr>
+                        <td>March</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <td>April</td>
+                        <td>1250</td>
+                    </tr>
+                    <tr>
+                        <td>May</td>
+                        <td>1600</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+
+        <article id="schedule">
+           <div class="schedule-head">
+            <h3>Today's Schedule</h3>
+            <p>See all</p>
+           </div> 
+           <div class="schedule-details">
+            <div>
+                <p class="meets head">Meetings from suppliers from kutta bali</p>
+                <p class="meets detail">14.00 - 15.00</p>
+                <p class="meets detail">at sunset road kutta bali</p>
+            </div>
+           </div>
+           <div class="schedule-details">
+            <div>
+                <p class="meets head">Meetings from suppliers from Suresh</p>
+                <p class="meets detail">15.00 - 16.00</p>
+                <p class="meets detail">at sunset road  bali</p>
+            </div>
+           </div>
+           <div class="schedule-details">
+            <div>
+                <p class="meets head">Meetings from suppliers from Ajay</p>
+                <p class="meets detail">12.00 - 01.00</p>
+                <p class="meets detail">at sunset road </p>
+            </div>
+           </div>
+           <div class="schedule-details">
+            <div>
+                <p class="meets head">Meetings from suppliers from encoprice</p>
+                <p class="meets detail">03.00 - 04.00</p>
+                <p class="meets detail">at morning on sohna road</p>
+            </div>
+           </div>
+        </article>
+
+        <article id="contact">
+            <h2>Contact Details</h2>
+            <div class="contact-inner">
+                <iframe
+                src="https://projects.mapmyindia.com/MarutiCNG/cng?city=asansol"
+                width="100%"
+                height="100%"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when downgrade"
+                ></iframe>
+                <div class="feedback-form">
+                    <h2>Feedback</h2>
+                    <form action="#" method="post">
+                        <input
+                        type="text"
+                        name="name"
+                        placeholder="Your Name"
+                        required/>
+                        <br/>
+                        <input
+                        type="email"
+                        name="email"
+                        placeholder="Your Email"
+                        required/>
+                        <br/>
+                        <textarea
+                        name="message"
+                        placeholder="Your Feedback"
+                        required></textarea>
+                        <br/>
+                        <input type="submit" value="Submit Feedback"/>
+                    </form>
+                </div>
+            </div>
+        </article>
+
+        <footer>
+           <div>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+           </div>
+           <div>&copy; 2024 Your Company Name. All Rights Reserved</div>
+        </footer>
+       </section>
+    </main>
+</body> 
+</html>
